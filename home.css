@@ -1,0 +1,265 @@
+
+
+body {
+    /*background-size: cover;*/
+    /*display: grid;*/
+    /*grid-template-rows: 150pt 10% 20% 20% 20% 20%;*/
+    /*grid-template-columns: 25% 25% 25% 25%;*/
+    background-color: #fca9c2;
+    font-family: Avenir Next;
+    text-align: center;
+}
+
+h1 {
+    font-size: 42px;
+}
+h2 {
+    font-size: 20px;
+    
+    /*margin-left: 75px*/
+    /*margin-right: 75px;*/
+}
+
+#header {
+    padding: 30px;
+    margin-top: 5px;
+}
+
+
+/*h1 {
+    grid-row: 1;
+    font-size: 5em;
+    color: white;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    justify-content: center;
+    align-items: start;
+}
+
+#search {
+    grid-row: 2;
+    grid-column: 1 / span 2;
+    content: url("search.png");
+    transform: scale(0.68);
+    width: 947px;
+    height: 109px;
+    align-items: center;
+    justify-content: stretch;
+    text-align: center;
+}
+
+#h2 {
+    grid-column: 2 / span 2;
+    grid-row: 3;
+    font-size: 2em;
+    font-weight: bold;
+    color: #F1CED3;
+    text-align: center;
+    align-items: top;
+    justify-content: stretch;
+}
+
+#album1 {
+    grid-row: 4;
+    grid-column: 1;
+    content: url("1975.png");
+    width: 120pt;
+    height: 115pt;
+    align-items: right;
+    justify-content: right;
+    display: block;
+    margin: auto;
+}
+
+#text1 {
+    grid-row: 5;
+    grid-column: 1;
+    font-size: 1em;
+    color: #F1CED3;
+    text-align: center;
+    justify-content: end;
+}
+
+#album2 {
+    grid-row: 4;
+    grid-column: 2;
+    content: url("places.png");
+    width: 120pt;
+    height: 120pt;
+    align-items: right;
+    justify-content: right;
+    display: block;
+    margin: auto;
+}
+
+#text2 {
+    grid-row: 5;
+    grid-column: 2;
+    font-size: 1em;
+    color: #F1CED3;
+    text-align: center;
+    justify-content: end;
+}
+
+#album3 {
+    grid-row: 4;
+    grid-column: 3;
+    content: url("joeybada$$.jpg");
+    width: 120pt;
+    height: 120pt;
+    align-items: right;
+    justify-content: right;
+    display: block;
+    margin: auto;
+}
+
+#text3 {
+    grid-row: 5;
+    grid-column: 3;
+    font-size: 1em;
+    color: #F1CED3;
+    text-align: center;
+    justify-content: end;
+}
+
+#album4 {
+    grid-row: 4;
+    grid-column: 4;
+    content: url("winner.jpg");
+    width: 120pt;
+    height: 120pt;
+    align-items: right;
+    justify-content: right;
+    display: block;
+    margin: auto;
+}
+
+#text4 {
+    grid-row: 5;
+    grid-column: 4;
+    font-size: 1em;
+    color: #F1CED3;
+    text-align: center;
+    justify-content: end;
+}
+
+#button1 {
+   grid-row: 6;
+   grid-column: 1;
+   content: url("Request.png");
+   width: 100pt;
+   height: 25pt;
+}
+
+#button2 {
+   grid-row: 6;
+   grid-column: 2;
+   content: url("Contribute.png");
+   width: 100pt;
+   height: 25pt;
+}
+
+#button3 {
+   grid-row: 6;
+   grid-column: 3;
+   content: url("Primary.png");
+   width: 100pt;
+   height: 25pt;
+}
+
+#button4 {
+   grid-row: 6;
+   grid-column: 4;
+   content: url("Facebook.png");
+   width: 100pt;
+   height: 25pt;
+   margin-right: 
+}
+
+@media (max-width: 500px) {
+    body {
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(1fr, 15);
+    }
+    #search {
+        grid-row: 2;
+        grid-column: 1;
+        width: 500px;
+        height: 90px;
+        display: block;
+        margin: auto;
+    }
+    #h2{
+        grid-column: 1;
+        grid-row: 3;
+        text-align: center;
+    }
+    #album1 {
+        grid-row: 4;
+        grid-column: 1;
+        display: inline-block;
+        margin: auto;
+    }
+    #text1 {
+        grid-row: 5;
+        grid-column: 1;
+    }
+    #album2 {
+        grid-row: 6;
+        grid-column: 1;
+        display: block;
+        margin: auto;
+    }
+    #text2 {
+        grid-row: 7;
+        grid-column: 1;
+    }
+    #album3 {
+        grid-row: 8;
+        grid-column: 1;
+        display: block;
+        margin: auto;
+    }
+    #text3 {
+        grid-row: 9;
+        grid-column: 1;
+    }
+    #album4 {
+        grid-row: 10;
+        grid-column: 1;
+        display: block;
+        margin: auto;
+    }
+    #text4 {
+        grid-row: 11;
+        grid-column: 1;
+    }
+    #button1 {
+        grid-row: 12;
+        grid-column: 1;
+        display: block;
+        margin: auto;
+    }
+
+    #button2 {
+        grid-row: 13;
+        grid-column: 1;
+        display: block;
+        margin: auto;
+    }
+    #button3 {
+        grid-row: 14;
+        grid-column: 1;
+        display: block;
+        margin: auto;
+    }
+    #button4 {
+        grid-row: 15;
+        grid-column: 1;
+        display: block;
+        margin: auto;
+    }
+
+    
+}*/
